@@ -39,9 +39,8 @@ cacheSolve <- function(x, ...) {
 
 	m <- x$getinverse()		#return the inverse of x
 
-	if( !is.null(m))		#return the inverse if it exists
+	if( !is.null(m))		#return the inverse if it exists in cache
 	{
-		message("recovering the cache")
 		return(m)
 	}
 
