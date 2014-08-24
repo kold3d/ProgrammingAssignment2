@@ -4,9 +4,9 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
-	i <- NULL			#Initialize
+	i <- NULL			#Initialize the inverse matrix
 	
-	set <- function(matrix)		#set the matrix
+	set <- function(matrix)		#set the matrix and its inverse
 	{
 		m <<- matrix
 		i <<- NULL
